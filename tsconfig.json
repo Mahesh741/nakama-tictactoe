@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "rootDir": "./modules",
+    "target": "ES2017",
+    "module": "commonjs",
+    "strict": false
+  },
+  "include": ["modules/**/*.ts"]
+}
