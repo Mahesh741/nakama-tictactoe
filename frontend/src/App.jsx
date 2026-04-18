@@ -33,7 +33,7 @@ export default function App() {
     const session = await client.authenticateDevice(deviceId, true, username);
     sessionRef.current = session;
 
-    const socket = client.createSocket(false);
+    const socket = client.createSocket(true);
     await socket.connect(session);
     socketRef.current = socket;
 
