@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { Client } from "@heroiclabs/nakama-js";
 
-const client = new Client("defaultkey", "127.0.0.1", "7350", false);
+const client = new Client("defaultkey", "nakama-tictactoe-production-4bad.up.railway.app", "443", true);
 
 const SCREENS = {
   LOGIN: "login",
